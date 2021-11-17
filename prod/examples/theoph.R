@@ -27,7 +27,7 @@ basemod <- function() {
 
 # run nlmixr with previously defined model (data is present in package!)
 # print method shows most important results
-fit <- nlmixr(basemod,theo_sd,est="nlme")
+fit <- nlmixr(basemod,theo_sd,est="saem")
 fit
 
 # xpose.nlmixr makes xpose available for nlmixr results!
